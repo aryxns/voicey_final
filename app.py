@@ -1,5 +1,7 @@
 from random import randint
 import streamlit as st
+import twisted
+import twisted.internet
 from twisted.internet.protocol import DatagramProtocol
 from twisted.internet import reactor
 import pyaudio
